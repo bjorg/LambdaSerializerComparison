@@ -35,4 +35,5 @@ string SerializeWith<T>(T value, Amazon.Lambda.Core.ILambdaSerializer serializer
 ```
 Amazon.Lambda.Serialization.Json.JsonSerializer: {"Foo":"Hello world!"}
 Amazon.Lambda.Serialization.SystemTextJson.LambdaJsonSerializer: {"foo":"Hello world!"}
+System.Text.Json.JsonSerializer: {"Foo":"Hello world!"}
 ```
